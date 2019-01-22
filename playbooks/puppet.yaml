@@ -1,0 +1,8 @@
+- name: instalando a infra do puppet server
+  hosts: all
+  roles:
+   - puppet
+
+
+
+

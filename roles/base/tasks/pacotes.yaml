@@ -1,0 +1,6 @@
+- name: instalando pacotes padroes
+  package:
+   name:
+    - vim
+    - wget
+    - htop

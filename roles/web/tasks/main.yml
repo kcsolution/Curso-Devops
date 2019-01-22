@@ -1,0 +1,9 @@
+---
+# tasks file for base_httpd
+- name: install web server apache
+  include: install.yaml
+
+- name: site create
+  include: site.yaml
+
+

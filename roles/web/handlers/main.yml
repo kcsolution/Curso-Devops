@@ -1,0 +1,7 @@
+---
+# handlers file for base_httpd
+- name: star_centos
+  service:
+   name: httpd
+   state: started
+  when: ansible_os_family == "RedHat"

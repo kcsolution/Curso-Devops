@@ -1,0 +1,4 @@
+- name: copy site
+  templante:
+   src: templates/index.html
+   dest: /var/www/html/
